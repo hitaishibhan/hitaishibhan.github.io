@@ -21,11 +21,17 @@
     }
 
     .hero {
-      display: flex;
-      align-items: center;
-      gap: 40px;
-      flex-wrap: wrap;
-    }
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
     .hero img {
       width: 140px;
