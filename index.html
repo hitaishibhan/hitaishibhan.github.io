@@ -20,8 +20,22 @@
       padding: 64px 20px;
     }
 
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .hero img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
     h1 {
-      font-size: 46px;
+      font-size: 44px;
       font-weight: 600;
       margin-bottom: 4px;
     }
@@ -29,7 +43,7 @@
     .role {
       font-size: 18px;
       color: #444;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
     }
 
     .links a {
@@ -73,19 +87,24 @@
   <div class="container">
 
     <!-- HERO -->
-    <h1>Hitaishi Bhan</h1>
-    <div class="role">Business Analyst</div>
-
-    <div class="links">
-      <a href="https://linkedin.com/in/hitaishi-bhan-732812243" target="_blank">LinkedIn</a>
-      <a href="mailto:hitaishibhan11@gmail.com">Email</a>
+    <div class="hero">
+      <img src="profile.jpg" alt="Hitaishi Bhan" />
+      <div>
+        <h1>Hitaishi Bhan</h1>
+        <div class="role">Business Analyst</div>
+        <div class="links">
+          <a href="https://linkedin.com/in/hitaishi-bhan-732812243" target="_blank">LinkedIn</a>
+          <a href="mailto:hitaishibhan11@gmail.com">Email</a>
+        </div>
+      </div>
     </div>
 
     <!-- ABOUT -->
     <h2>About</h2>
     <p>
       Business Analyst with experience in requirement gathering, process analysis,
-      and KPI-driven improvements across enterprise systems.
+      and KPI-driven improvements across enterprise systems. Focused on translating
+      business needs into clear requirements and measurable outcomes.
     </p>
 
     <!-- EXPERIENCE -->
@@ -116,12 +135,8 @@
     <!-- PROJECTS -->
     <h2>Projects</h2>
     <ul>
-      <li>
-        <strong>Internal Ticketing System</strong> — Requirement analysis and workflow optimization
-      </li>
-      <li>
-        <strong>Order & Inventory Management System</strong> — SDLC support and KPI-based reporting
-      </li>
+      <li><strong>Internal Ticketing System</strong> — Requirement analysis and workflow optimization</li>
+      <li><strong>Order & Inventory Management System</strong> — SDLC support and KPI-based reporting</li>
     </ul>
 
     <!-- SKILLS -->
